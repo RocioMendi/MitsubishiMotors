@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Blog: Saltar Navegación</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="barra-superior">
+            <img  href="index.html"  class="logo" src="./img/logo mitsubishi.jpg" alt="logo mitsubishi" >
+
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./legendarios.html">Legendarios</a></li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+<div class="fondo1">
+
+<div class="contacto">
+    <h2>Formulario de Contacto</h2>
+    <form id="contactForm" onsubmit="return validarFormulario()">
+      <div class="grupo-formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="grupo-formulario">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="grupo-formulario">
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+      </div>
+      <div class="grupo-formulario">
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </div>
+      <div class="grupo-formulario">
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>
+<footer>
+    <div class="contenido-footer">
+      <!-- Sección de Acerca de Nosotros -->
+      <div class="footer-descripcion">
+        <h2>Sobre Nosotros</h2>
+        <p>Mitsubishi Motors es una marca reconocida mundialmente por su legado en la fabricación de vehículos que combinan tecnología avanzada, diseño innovador y rendimiento excepcional. Desde su fundación, Mitsubishi se ha destacado en el sector automotriz, ofreciendo una amplia gama de modelos que van desde SUVs robustos hasta vehículos deportivos compactos. Con un enfoque centrado en la calidad y la fiabilidad, cada vehículo Mitsubishi está diseñado para satisfacer las necesidades y superar las expectativas de sus conductores, garantizando una experiencia de conducción emocionante y segura en cualquier situación.</p>
+      </div>
+
+      <!-- Sección de Ubicación -->
+      <div class="footer-ubicacion">
+        <h2>Ubicación</h2>
+        <p>Dirección: Av. Mitre 1702
+            1602 – Florida
+            Vicente Lopez
+            Buenos Aires</p>
+        <p>Teléfono: +54 9 11 5009 - 7926</p>
+        <p>Email: info@mitsubishiargentina.com</p>
+      </div>
+
+      
+    
+    
+    </div>
+
+  </body>
+  
+
+  </html>

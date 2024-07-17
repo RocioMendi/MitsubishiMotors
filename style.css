@@ -1,0 +1,268 @@
+.barra-superior{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+ 
+}
+
+.barra-superior .logo{
+    height: 70px;
+    width: 70px;
+    margin: 0%;
+    
+
+}
+.barra-superior ul{
+    list-style: none;
+    display: flex;
+    margin: 0; 
+    padding: 0; 
+    margin-left: 20%;
+    margin-right: 5%;
+
+}
+
+.barra-superior ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 50px 20px;
+    transition: background-color 0.3s;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; 
+    padding: 0; 
+    background-color: #f4f4f4;
+}
+
+.texto-inicio{
+    text-align: center;
+}
+
+.texto-inicio p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.modelos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.modelos .auto{
+    background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        transition: transform 0.3s ease; 
+        text-align: center;
+
+}
+.modelos .auto img{
+    max-width: 100%;
+    height: 300px;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.modelos .auto h2{
+font-size: xx-large;
+margin-bottom: 10px;
+}
+
+.modelos .auto a{
+text-align: center;
+color: white;
+background-color: black;
+display: inline-block;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.auto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-franja{
+    background-color: red;
+    height: 50px;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-franja img{
+    width: 60px;
+    padding-right: 15px;
+padding-top: 5px;
+padding-bottom: 1px;
+}
+.franja{
+    display: flex;
+    justify-content:space-between;
+    text-align:center;
+    align-items: center;
+
+}
+
+
+.texto h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 0; 
+    font-size: 24px;
+    padding-left: 20px; 
+    margin-bottom: 10px;
+}
+    
+
+.texto {
+display: grid;
+ padding: 20px;
+ width: 50%; 
+padding: 0 40px;
+ 
+}
+
+.texto p{
+    line-height: 1.6;
+    margin-top: 5px; 
+    margin-bottom: 5px; 
+    font-size: 16px;
+}
+.texto button{
+background-color: black;
+color: white;
+border-bottom: red;
+margin: 20px;
+padding: 15px;
+font-size: large;
+font-family:Verdana, Geneva, Tahoma, sans-serif ;
+margin-left: 120px;
+margin-right: 120px;
+}
+
+.franja{
+    display: flex;
+    justify-content:space-between;
+    text-align:center;
+    align-items: center;
+}
+.franja .img1{
+    width: 56%;
+    height: 550px;
+    
+    }
+.franja .img2{
+    width: 50%;
+    height: 550px;
+}
+
+.fondo{
+    background-color: red;
+}
+
+.fondo1{
+    background-color: black;
+}
+.texto-inicio2{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.texto-inicio2 h1{
+    background-color: black;
+    border-radius: 7px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+/* ESTILOS FORMULARIO */
+.contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white;
+  }
+  .grupo-formulario {
+    margin-bottom: 15px;
+  }
+  .grupo-formulario label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .grupo-formulario input, .grupo-formulario textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .grupo-formulario textarea {
+    height: 150px;
+  }
+  .grupo-formulario button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .grupo-formulario button:hover {
+    background-color: #45a049;
+  }
+
+ /*  ESTILOS FOOTER */
+ 
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .contenido-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .footer-descripcion {
+    flex: 1;
+    margin: 10px;
+  }
+  .footer-descripcion h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .footer-descripcion p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .contact-info {
+    font-size: 14px;
+  }
